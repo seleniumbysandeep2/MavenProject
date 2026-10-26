@@ -1,23 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[create customer]]>
+      <![CDATA[create customer execution started]]>
+    </line>
+    <line>
+      <![CDATA[create customer executed successfully]]>
     </line>
   </reporter-output>
-  <suite started-at="2026-10-23T11:30:43 IST" name="Suite" finished-at="2026-10-23T11:30:43 IST" duration-ms="117">
+  <suite started-at="2026-10-26T13:39:19 IST" name="Suite" finished-at="2026-10-26T13:39:28 IST" duration-ms="8945">
     <groups>
     </groups>
-    <test started-at="2026-10-23T11:30:43 IST" name="Test" finished-at="2026-10-23T11:30:43 IST" duration-ms="117">
+    <test started-at="2026-10-26T13:39:19 IST" name="Test" finished-at="2026-10-26T13:39:28 IST" duration-ms="8945">
       <class name="com.actitime.testscripts.CustomerModule">
-        <test-method signature="testCreateCustomer()[pri:0, instance:com.actitime.testscripts.CustomerModule@703580bf]" started-at="2026-10-23T11:30:43 IST" name="testCreateCustomer" finished-at="2026-10-23T11:30:43 IST" duration-ms="25" status="PASS">
+        <test-method signature="testCreateCustomer()[pri:0, instance:com.actitime.testscripts.CustomerModule@1aafa419]" started-at="2026-10-26T13:39:19 IST" name="testCreateCustomer" finished-at="2026-10-26T13:39:28 IST" duration-ms="8788" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[create customer]]>
+              <![CDATA[create customer execution started]]>
+            </line>
+            <line>
+              <![CDATA[create customer executed successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- testCreateCustomer -->
       </class> <!-- com.actitime.testscripts.CustomerModule -->
+      <class name="com.actitime.testscripts.TaskModule">
+        <test-method signature="createTask()[pri:0, instance:com.actitime.testscripts.TaskModule@7c7b252e]" started-at="2026-10-26T13:39:19 IST" name="createTask" finished-at="2026-10-26T13:39:19 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTask -->
+      </class> <!-- com.actitime.testscripts.TaskModule -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

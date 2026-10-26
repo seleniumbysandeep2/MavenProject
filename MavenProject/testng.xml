@@ -2,6 +2,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      <class name="com.actitime.testscripts.TaskModule"/>
       <class name="com.actitime.testscripts.CustomerModule"/>
     </classes>
   </test> <!-- Test -->
